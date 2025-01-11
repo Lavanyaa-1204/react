@@ -1,0 +1,38 @@
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55px;
+  background-color: #F55A5A;
+  color: white;
+  font-family: Inter;
+  
+}
+.main{
+  display: flex;
+  margin-left: 40px;
+  margin-top: 36px;
+}
+.entryheader{
+  display: flex;
+  justify-content: space-between;
+  width:230px;
+
+}
+.link{
+  margin-left: 10px;
+}
+.content{
+  margin-left: 19px;
+}
+.image{
+   width:125px;
+   height:168px;
+   border-radius: 5px;
+   overflow: hidden;
+}
+.image>img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
